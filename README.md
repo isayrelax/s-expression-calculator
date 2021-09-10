@@ -65,7 +65,7 @@ This program will accept any number of `add` or `multiply` function calls:
 Additional functions may be easily implemented within the code to extend the program's capabilities.
 Below is an example of an implementation of a `subtract` function:
 
-1. We create the `subtract` function:
+1. Create the `subtract` function:
 ```python
 def subtract(INTEGERS):
     result = 0
@@ -74,7 +74,7 @@ def subtract(INTEGERS):
     return result
 ```
 
-2. We insert and call the `subtract` function within the `calculate_sub_expression()` function as an 'elif' statement:
+2. Call the `subtract` function within the `calculate_sub_expression()` function as an `elif` statement:
 ```python
 def calculate_sub_expression(sub_expression):
     ...
@@ -110,3 +110,9 @@ $ chmod +x calc.py
 ## Dependencies
 ---
 This program was created using python 3.9.2 on macOS
+
+</br></br>
+## Author
+---
+I'm Frank Piro, a Software Developer in Barrie, ON, Canada. Thank you for taking the time to learn about my software. I enjoyed creating this program, and am always open to any feedback or suggestions, so please [reach out](mailto:frank.piro@gmail.com)!
+
